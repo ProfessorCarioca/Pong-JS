@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background:rgb(63,143,3);
+    color:rgb(183,8,36);
+     font-family: "Metal Mania", system-ui;
+  
+  }
+  header {
+    font-size:60px;
+    
+  }
+  canvas {
+    display: block;
+  }
