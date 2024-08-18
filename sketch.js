@@ -34,6 +34,7 @@ function draw() {
   verificaColisaoRaqueteOponente();
 marcaPonto();
   incluiPlacar();
+  
 
   // criar bolinha
   
@@ -80,6 +81,8 @@ marcaPonto();
    // }
 
   // raquete do oponente 
+  
+  
   
   rect(xRaqueteOponente, yRaqueteOponente, raqueteComprimento, raqueteAltura);
   
@@ -130,10 +133,6 @@ marcaPonto();
     text(pontosDoOponente, 321, 26);
 } 
   
- function preload() {
-    trilha = loadSound("The CallOfKtulu.mp3");
-    ponto = loadSound("ponto.mp3");
-    raquetada = loadSound("Pop.wav");
-}
 
 }
+
