@@ -34,6 +34,7 @@ function draw() {
   verificaColisaoRaqueteOponente();
 marcaPonto();
   incluiPlacar();
+ resetbolinha ();
 
   // criar bolinha
   
@@ -57,6 +58,14 @@ marcaPonto();
   }
   }
   // criar raquete do jogador
+
+ function resetbolinha () {
+ 
+ if (keyIsDown(Space) {
+  xbolinha = 250;
+  ybolinha = 250;
+ }
+ }
   
  rect(xRaquete, yRaquete, raqueteComprimento, raqueteAltura); 
  fill(random(0, 255), random(0, 255), random(0, 255));
