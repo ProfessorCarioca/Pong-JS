@@ -61,7 +61,7 @@ marcaPonto();
 
  function resetbolinha () {
  
- if (keyIsDown(Space) {
+ if (keyIsDown(SPACE)) {
   xbolinha = 250;
   ybolinha = 250;
  }
