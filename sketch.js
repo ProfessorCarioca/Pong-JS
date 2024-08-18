@@ -35,7 +35,6 @@ function draw() {
 marcaPonto();
   incluiPlacar();
 
-
   // criar bolinha
   
   function bolinha () {
@@ -58,7 +57,6 @@ marcaPonto();
   }
   }
   // criar raquete do jogador
-
   
  rect(xRaquete, yRaquete, raqueteComprimento, raqueteAltura); 
  fill(random(0, 255), random(0, 255), random(0, 255));
