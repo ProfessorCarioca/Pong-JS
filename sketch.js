@@ -34,7 +34,6 @@ function draw() {
   verificaColisaoRaqueteOponente();
 marcaPonto();
   incluiPlacar();
-  
 
   // criar bolinha
   
@@ -81,8 +80,6 @@ marcaPonto();
    // }
 
   // raquete do oponente 
-  
-  
   
   rect(xRaqueteOponente, yRaqueteOponente, raqueteComprimento, raqueteAltura);
   
